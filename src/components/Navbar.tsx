@@ -20,12 +20,12 @@ const Navbar = () => {
           {/* Logo  */}
           <div>
             <Link href="/" className="flex gap-2 items-center">
-              <img src="/icon2.svg" alt="Logo" className="size-12" />
+              <img src="/icon2.svg" alt="Logo" className="size-10" />
               <div className="flex flex-col">
-                <span className=" text-4xl text-scolor font-semibold">
+                <span className=" text-4xl text-scolor font-medium">
                   Indisis
                 </span>
-                <span className="text-[8px] font-medium text-baseColor">Intelligence Beyond Systems</span>
+                <span className="text-[7px] font-medium text-baseColor">Intelligence Beyond Systems</span>
               </div>
             </Link>
           </div>

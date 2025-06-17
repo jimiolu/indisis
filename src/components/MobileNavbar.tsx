@@ -37,7 +37,7 @@ const MobileMenu = () => {
         <Link href="/" className="flex gap-2 items-center">
           <img src="/icon2.svg" alt="Logo" className="size-8" />
           <div className="flex flex-col">
-            <span className=" text-3xl text-scolor font-semibold">Indisis</span>
+            <span className=" text-3xl text-scolor font-medium">Indisis</span>
             <span className="text-[6px] font-medium text-baseColor">
               Intelligence Beyond Systems
             </span>
