@@ -19,11 +19,11 @@ const Navbar = () => {
         <div className="container flex items-center justify-between h-full">
           {/* Logo  */}
           <div>
-            <Link href="/" className="flex gap-2 items-center">
+            <Link href="/" className="flex gap-0 items-center">
               <img src="/icon2.svg" alt="Logo" className="size-10" />
               <div className="flex flex-col">
-                <span className=" text-4xl text-scolor font-medium">
-                  Indisis
+                <span className=" text-4xl text-scolor font-medium capitalize">
+                  indisis
                 </span>
                 <span className="text-[7px] font-medium text-baseColor">Intelligence Beyond Systems</span>
               </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
           </div>
 
           {/* Mega Menu Trigger  */}
-          <div className="flex gap-10">
+          <div className="flex gap-5">
             <MegaMenu1 />
             <MegaMenu2 />
             <MegaMenu3 />

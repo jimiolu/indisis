@@ -34,10 +34,10 @@ const MobileMenu = () => {
     <div className="relative">
       {/* Main Mobile Menu Trigger */}
       <div className="flex items-center justify-between p-4 fixed top-0 left-0 z-50 w-full h-20 bg-white/90 backdrop-blur-sm shadow-sm">
-        <Link href="/" className="flex gap-2 items-center">
+        <Link href="/" className="flex gap-0 items-center">
           <img src="/icon2.svg" alt="Logo" className="size-8" />
           <div className="flex flex-col">
-            <span className=" text-3xl text-scolor font-medium">Indisis</span>
+            <span className=" text-3xl text-scolor font-medium capitalize">Indisis</span>
             <span className="text-[6px] font-medium text-baseColor">
               Intelligence Beyond Systems
             </span>

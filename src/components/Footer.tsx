@@ -18,13 +18,13 @@ const Footer = () => {
       <Container>
         <div className="flex flex-col lg:flex-row justify-between gap-20">
           <div className="flex-1 space-y-5">
-            <Link href="/" className="flex gap-2 items-center">
-              <img src="/icon2.svg" alt="Logo" className="size-12" />
+            <Link href="/" className="flex gap-0 items-center">
+              <img src="/icon2.svg" alt="Logo" className="size-10" />
               <div className="flex flex-col">
-                <span className=" text-4xl text-scolor font-semibold">
+                <span className=" text-4xl text-scolor font-medium capitalize">
                   Indisis
                 </span>
-                <span className="text-[8px] font-medium text-baseColor">
+                <span className="text-[7px] font-medium text-baseColor">
                   Intelligence Beyond Systems
                 </span>
               </div>
