@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="h-[calc(90vh-80px)] lg:h-[calc(100vh-96px)]">
+    <div className="h-[calc(100vh-80px)] md:h-[calc(90vh-80px)] lg:h-[calc(100vh-96px)]">
       <Container>
         <div className="flex flex-col justify-between h-full">
           <div className="flex items-center  h-full">
