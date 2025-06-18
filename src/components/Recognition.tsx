@@ -8,41 +8,41 @@ const Recognition = () => {
     <div className="bg-scolor">
       <Container>
         <div className="flex flex-col gap-20 py-20 text-white">
-          <div className="flex flex-col lg:flex-row gap-10">
+          <div className="flex flex-col lg:flex-row gap-5">
             <h3 className="text-2xl md:text-3xl font-medium leading-tight">
               We're a Leading Software Development Company with Proven
               Excellence
             </h3>
             <div className="space-y-5">
-              <p className="text-base md:text-lg">
+              <p className="text-sm md:text-lg">
                 We provide top-tier software engineers, data scientists, and
                 cloud specialists who excel at problem-solving, executing tasks,
                 and driving your projects to success.
               </p>
-              <Link href="#">
-                <div className="inline-flex items-center justify-center gap-2 text-scolor bg-white px-6 py-3 transition duration-500 ease-in-out hover:bg-baseColor hover:text-white">
-                  <span className="font-medium uppercase text-sm md:text-base">
-                    How we do it
+              <button className="text-scolor bg-white px-8 py-3 transition duration-500 ease-in-out hover:scale-105 mr-auto">
+                <Link href="/get-in-touch" className="flex gap-2 items-center">
+                  <span className="uppercase font-medium text-sm md:text-base">
+                    Get Started
                   </span>
-                  <ArrowRight className="size-4" />
-                </div>
-              </Link>
+                  <ArrowRight className="size-5" />
+                </Link>
+              </button>
             </div>
           </div>
 
           <div className="flex flex-col lg:flex-row gap-20">
             <div className="flex-1 space-y-5">
               <div className="flex flex-col md:flex-row md:items-center justify-center md:justify-start gap-3 md:gap-10 px-10 py-5 bg-white text-scolor shadow-md md:h-32 ">
-                <span className="text-3xl md:text-5xl font-bold">4.2</span>
+                <span className="text-3xl md:text-4xl font-bold">4.2</span>
                 <div className="flex flex-col gap-2">
                   <img src="/img6.png" alt="Trustpilot" className="w-36" />
                   <span className="font-medium">Verified Client Rating</span>
                 </div>
               </div>
               <div className="flex flex-col md:flex-row md:items-center justify-center md:justify-start gap-3 md:gap-10 px-10 py-5 bg-white text-scolor shadow-md md:h-32 ">
-                <span className="text-3xl md:text-5xl font-bold">80%</span>
+                <span className="text-3xl md:text-4xl font-bold">80%</span>
                 <div className="flex flex-col gap-2">
-                  <span className="text-xl md:text-2xl font-semibold">
+                  <span className="text-xl md:text-2xl font-medium">
                     Net Promoter Score
                   </span>
                   <span className="font-medium">
@@ -51,9 +51,9 @@ const Recognition = () => {
                 </div>
               </div>
               <div className="flex flex-col md:flex-row md:items-center justify-center md:justify-start gap-3 md:gap-10 px-10 py-5 bg-white text-scolor shadow-md md:h-32 ">
-                <span className="text-3xl md:text-5xl font-bold">150%</span>
+                <span className="text-3xl md:text-4xl font-bold">150%</span>
                 <div className="flex flex-col gap-2">
-                  <span className="text-xl md:text-2xl font-semibold">
+                  <span className="text-xl md:text-2xl font-medium">
                     Net Retention Rate
                   </span>
                   <span className="font-medium">Annual growth in renewals</span>

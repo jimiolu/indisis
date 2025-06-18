@@ -20,7 +20,7 @@ const Testimonial = () => {
                 <div className="bg-scolor/10 p-3 rounded-full">
                   <Sparkles strokeWidth={2} className="size-7 text-scolor" />
                 </div>
-                <div className="text-baseColor">
+                <div className="text-neutral-700">
                   <h3 className="text-2xl font-extrabold">100+</h3>
                   <span className="text-gray-600">User satisfaction</span>
                 </div>
@@ -29,7 +29,7 @@ const Testimonial = () => {
                 <div className="bg-scolor/10 p-3 rounded-full">
                   <Clock2 strokeWidth={2} className="size-7 text-scolor" />
                 </div>
-                <div className="text-baseColor">
+                <div className="text-neutral-700">
                   <h3 className="text-2xl font-extrabold">24/7</h3>
                   <span className="text-gray-600">Customer support</span>
                 </div>
@@ -38,7 +38,7 @@ const Testimonial = () => {
                 <div className="bg-scolor/10 p-3 rounded-full">
                   <ShieldCheck strokeWidth={2} className="size-7 text-scolor" />
                 </div>
-                <div className="text-baseColor">
+                <div className="text-neutral-700">
                   <h3 className="text-2xl font-extrabold">100%</h3>
                   <span className="text-gray-600">Project completion</span>
                 </div>

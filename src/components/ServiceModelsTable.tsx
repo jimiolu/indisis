@@ -12,9 +12,9 @@ const ServiceModelsTable = ({
     <div>
       <Container>
         <div className="py-20 flex flex-col gap-16">
-          <div className="flex flex-col gap-8 items-center text-baseColor text-center">
-            <h3 className="text-4xl">{title}</h3>
-            <p className="lg:w-[50%] text-base md:text-lg text-gray-600">
+          <div className="flex flex-col gap-5 items-center text-baseColor text-center">
+            <h3 className="text-3xl md:text-4xl">{title}</h3>
+            <p className="lg:w-[50%] text-sm md:text-base text-gray-500">
               {desc}
             </p>
           </div>

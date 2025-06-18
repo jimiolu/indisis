@@ -13,12 +13,12 @@ const ServiceModel = () => {
   return (
     <div>
       <Container>
-        <div className="pt-20 space-y-10 text-baseColor">
-          <h3 className="text-3xl md:text-4xl lg:w-[50%] leading-tight">
+        <div className="pt-20 space-y-5 text-baseColor">
+          <h3 className="text-2xl md:text-3xl lg:w-[50%] leading-tight">
             Experience our Nearshore Software Development Solutions
           </h3>
           <div className="space-y-5">
-            <p className="text-base md:text-lg lg:w-[40%] text-gray-500">
+            <p className="text-sm md:text-base lg:w-[40%] text-neutral-500">
               We adapt to your needs—whether you require a single expert, a full
               development team, or strategic technical guidance, our flexible
               approach ensures seamless support at every stage.
@@ -27,7 +27,7 @@ const ServiceModel = () => {
               href="#"
               className="flex gap-1 items-center text-scolor hover:underline"
             >
-              <span className="uppercase font-bold text-base">
+              <span className="uppercase font-semibold text-base">
                 Nearshore service Models
               </span>
               <ArrowUpRight className="size-5" />
@@ -44,7 +44,7 @@ const ServiceModel = () => {
                 <h3 className="text-xl font-medium">
                   Nearshore Software Talent Augmentation
                 </h3>
-                <p className="text-gray-700 text-sm">
+                <p className="text-neutral-500 text-sm">
                   We expand your team with the skilled professionals essential
                   for your development success.
                 </p>
@@ -65,7 +65,7 @@ const ServiceModel = () => {
                 <h3 className="text-xl font-medium">
                   Dedicated Outsourced Development Team
                 </h3>
-                <p className="text-gray-700 text-sm">
+                <p className="text-neutral-500 text-sm">
                   We assemble dedicated offshore development teams with top and
                   professional expertise.
                 </p>
@@ -89,7 +89,7 @@ const ServiceModel = () => {
                 <h3 className="text-xl font-medium">
                   End-to-End Project Delivery & Management
                 </h3>
-                <p className="text-gray-700 text-sm">
+                <p className="text-neutral-500 text-sm">
                   We define requirements, oversee tasks, and ensure seamless
                   software delivery with zero exception.
                 </p>
@@ -113,7 +113,7 @@ const ServiceModel = () => {
                 <h3 className="text-xl font-medium w-[90%]">
                   Virtual CTO Consulting Services
                 </h3>
-                <p className="text-gray-700 text-sm">
+                <p className="text-neutral-500 text-sm">
                   We advise and architect scalable and secure software
                   technology solutions for AI, Data, and Web.
                 </p>

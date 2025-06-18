@@ -10,7 +10,7 @@ const Blog = () => {
       <Container>
         <div className="space-y-16">
           <div className="flex flex-col md:flex-row justify-between gap-5">
-            <h3 className="text-3xl md:text-4xl lg:w-[40%] leading-tight text-baseColor">
+            <h3 className="text-2xl md:text-3xl lg:w-[40%] leading-tight text-baseColor">
               Insights From Our Team
             </h3>
             <Link href="#">
@@ -49,7 +49,7 @@ const Blog = () => {
                           {item.subTitle}
                         </p>
                         <div className="flex gap-1 items-center text-scolor hover:underline">
-                          <span className="uppercase font-bold text-sm">
+                          <span className="uppercase font-semibold text-sm">
                             READ POST
                           </span>
                           <ArrowUpRight className="size-5" />
@@ -79,7 +79,7 @@ const Blog = () => {
                             </h3>
                           </div>
                           <div className="flex gap-1 mt-4 items-center text-scolor hover:underline">
-                            <span className="uppercase font-bold text-sm">
+                            <span className="uppercase font-semibold text-sm">
                               READ POST
                             </span>
                             <ArrowUpRight className="size-5" />

@@ -13,8 +13,8 @@ const SprintDelivery = () => {
   return (
     <div className="bg-scolor py-20">
       <Container>
-        <div className="space-y-16">
-          <h3 className="text-3xl md:text-4xl lg:w-[40%] leading-tight text-white">
+        <div className="space-y-10">
+          <h3 className="text-2xl md:text-3xl lg:w-[40%] leading-tight text-white">
             Innovation in Every Iteration
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">

@@ -55,12 +55,12 @@ export default function ScheduleToggle() {
       </div>
 
       {/* Title */}
-      <h3 className="text-3xl md:text-4xl font-medium text-gray-800 text-center">
+      <h3 className="text-2xl md:text-3xl font-medium text-gray-800 text-center">
         Transform Your <span className="text-scolor">Digital</span> Experience
       </h3>
 
       {/* Description */}
-      <p className="text-gray-600 max-w-xl text-center">
+      <p className="text-neutral-600 max-w-xl text-center text-sm md:text-base">
         Our team of experts delivers tailored IT solutions that drive
         innovation, efficiency, and growth for your enterprise. Experience the
         difference of working with industry leaders.

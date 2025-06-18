@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="h-[calc(100vh-80px)] md:h-[calc(90vh-80px)] lg:h-[calc(100vh-96px)]">
+    <div className="h-[calc(90vh-80px)] lg:h-[calc(100vh-96px)]">
       <Container>
         <div className="flex flex-col justify-between h-full">
           <div className="flex items-center  h-full">
@@ -24,7 +24,7 @@ const Hero = () => {
                 <span className="text-scolor">Create Smart, Scalable</span> Apps
                 Together.
               </h3>
-              <p className="md:w-[90%] lg:w-[65%] text-sm md:text-base text-justify font-light leading-relaxed text-gray-500">
+              <p className="md:w-[90%] lg:w-[65%] text-sm md:text-base text-justify font-light leading-relaxed text-neutral-500">
                 Indisis is a premier software development firm specializing in
                 <span className="font-semibold">
                   &nbsp;AI, Data, Mobile, and Web

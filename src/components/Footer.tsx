@@ -20,16 +20,16 @@ const Footer = () => {
           <div className="flex-1 space-y-5">
             <Link href="/" className="flex gap-0 items-center">
               <img src="/icon2.svg" alt="Logo" className="size-10" />
-              <div className="flex flex-col">
+              <div className="flex flex-col -space-y-2">
                 <span className=" text-4xl text-scolor font-medium capitalize">
-                  Indisis
+                  indisis
                 </span>
                 <span className="text-[7px] font-medium text-baseColor">
-                  Intelligence Beyond Systems
+                  Intelligence Digital Systems
                 </span>
               </div>
             </Link>
-            <p className="text-sm font-medium text-gray-500 md:w-[60%] lg:w-full leading-relaxed">
+            <p className="text-sm text-neutral-500 md:w-[60%] lg:w-full leading-relaxed">
               Indisis blends strategic consulting, deep industry insight, and
               cutting-edge AI expertise to deliver impactful digital experiences
               and drive accelerated growth for businesses across the globe.
@@ -81,8 +81,8 @@ const Footer = () => {
           </div>
 
           <div className="flex-2 flex flex-col lg:flex-row justify-between gap-10">
-            <div className="space-y-5 text-baseColor">
-              <h3 className="text-xl font-semibold text-scolor">Services</h3>
+            <div className="space-y-5 text-neutral-600">
+              <h3 className="text-xl font-medium text-scolor">Services</h3>
               <div className="flex flex-col gap-5">
                 <Link href="#">Dedicated Team</Link>
                 <Link href="#">Software Staffing</Link>
@@ -92,8 +92,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="space-y-5 text-baseColor">
-              <h3 className="text-xl font-semibold text-scolor">Expertise</h3>
+            <div className="space-y-5 text-neutral-600">
+              <h3 className="text-xl font-medium text-scolor">Expertise</h3>
               <div className="flex flex-col gap-5">
                 <Link href="#">Artificial Intelligence</Link>
                 <Link href="#">Application Development</Link>
@@ -106,8 +106,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="space-y-5 text-baseColor">
-              <h3 className="text-xl font-semibold text-scolor">About</h3>
+            <div className="space-y-5 text-neutral-600">
+              <h3 className="text-xl font-medium text-scolor">About</h3>
               <div className="flex flex-col gap-5">
                 <Link href="#">Our Clients</Link>
                 <Link href="#">Join us</Link>
@@ -121,7 +121,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t mt-20">
-          <p className="mt-2 text-gray-600">
+          <p className="mt-2 text-gray-600 text-sm">
             Copyright &copy; {new Date().getFullYear()} Indisis LLC. All rights
             reserved
             <span className="text-scolor">
