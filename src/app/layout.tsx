@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Righteous } from "next/font/google";
+import { Geist, Geist_Mono, IBM_Plex_Sans, Inter, Righteous } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -20,6 +20,12 @@ const righteous = Righteous({
   weight: "400",
 })
 
+const ibm = Inter({
+  variable: "--font-ibm",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+})
+
 export const metadata: Metadata = {
   title: "Next-Gen Software Development Company | Indisis",
   description: "Next-Gen Software Development Company",
@@ -33,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.className} ${geistMono.variable} ${righteous.variable} antialiased relative`}
+        className={`${ibm.className} ${geistMono.variable} ${righteous.variable} antialiased relative`}
       >
         <Header />
         <main className="pt-20 lg:pt-24">{children}</main>

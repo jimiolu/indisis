@@ -34,10 +34,10 @@ const MegaMenu5 = () => {
             <div className="flex justify-between mb-6">
               <div className="w-[25%] space-y-10">
                 <div className="flex flex-col gap-5">
-                  <h3 className="text-4xl font-semibold text-gray-700">
+                  <h3 className="text-2xl font-medium text-gray-700">
                     About us
                   </h3>
-                  <span className="text-gray-700">
+                  <span className="text-gray-700 text-sm">
                     Empower businesses with cutting-edge technology, seamless
                     digital solutions, and innovative development services to
                     drive growth, scalability, and long-term success.
@@ -46,14 +46,14 @@ const MegaMenu5 = () => {
                     href="#"
                     className="flex items-center gap-1 text-lg text-scolor"
                   >
-                    <span className="uppercase font-semibold">
+                    <span className="uppercase font-medium text-base">
                       read overview
                     </span>
-                    <MoveRight />
+                    <MoveRight className="size-5" />
                   </Link>
                 </div>
 
-                <div className="h-60 w-full overflow-hidden">
+                <div className="h-52 w-full overflow-hidden">
                   <img
                     src="https://images.pexels.com/photos/4427814/pexels-photo-4427814.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     alt="Dropdown Image"
@@ -67,7 +67,7 @@ const MegaMenu5 = () => {
                   href="#"
                   className="flex gap-2 items-center text-xl text-gray-600 hover:text-scolor hover:underline"
                 >
-                  About Upbace
+                  About us
                   <ArrowUpRight className="size-4" />
                 </Link>
                 <Link

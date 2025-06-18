@@ -11,20 +11,20 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col justify-between h-full">
           <div className="flex items-center  h-full">
-            <div className="flex-[1.5] space-y-4">
-              <h1 className="hidden md:flex md:w-[90%] text-6xl text-scolor font-medium leading-tight">
+            <div className="flex-[1.5] space-y-5">
+              <h1 className="hidden md:flex md:w-[90%] text-5xl text-scolor font-medium leading-tight">
                 Lead the Future <br />
                 of Innovation
               </h1>
-              <h1 className="md:hidden text-4xl md:text-6xl text-scolor font-medium leading-tight">
+              <h1 className="md:hidden text-4xl text-scolor font-medium leading-tight">
                 Lead the Future of Innovation
               </h1>
-              <h3 className="md:w-[90%] lg:w-[70%] text-lg font-light leading-relaxed text-baseColor">
+              <h3 className="md:w-[90%] lg:w-[70%] text-lg font-medium leading-relaxed text-baseColor">
                 Let's Collaborate to{" "}
                 <span className="text-scolor">Create Smart, Scalable</span> Apps
                 Together.
               </h3>
-              <p className="md:w-[90%] lg:w-[65%] text-sm md:text-base text-justify font-light leading-relaxed text-neutral-500">
+              <p className="md:w-[80%] lg:w-[60%] text-sm md:text-base text-justify font-light leading-relaxed text-neutral-500">
                 Indisis is a premier software development firm specializing in
                 <span className="font-semibold">
                   &nbsp;AI, Data, Mobile, and Web
