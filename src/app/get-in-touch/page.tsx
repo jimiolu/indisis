@@ -6,7 +6,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="h-screen">
+    <div className="h-full py-20">
       <Container>
         <div className="flex flex-col lg:flex-row h-full">
           <div className="flex-2 h-full flex flex-col gap-10 justify-center text-baseColor">
@@ -29,7 +29,7 @@ const page = () => {
             </div>
           </div>
 
-          <div className="flex-1 overflow-hidden hidden lg:flex h-full w-full py-4">
+          <div className="flex-1 overflow-hidden hidden lg:flex">
             <Image
               src="https://images.pexels.com/photos/8485724/pexels-photo-8485724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Form Image"
