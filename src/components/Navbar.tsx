@@ -25,8 +25,8 @@ const Navbar = () => {
                 <span className=" text-4xl text-scolor font-medium lowercase font-righteous">
                   indisis
                 </span>
-                <span className="text-[8px] font-medium text-baseColor">
-                  Intelligence Digital Systems
+                <span className="text-[7.5px] font-medium text-baseColor">
+                  Intelligence Beyond Systems
                 </span>
               </div>
             </Link>
